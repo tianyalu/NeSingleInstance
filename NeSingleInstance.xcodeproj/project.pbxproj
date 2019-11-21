@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		94D8199723863C9E0042CDBA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94D8199623863C9E0042CDBA /* main.cpp */; };
+		94D8199F238664E20042CDBA /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94D8199E238664E20042CDBA /* Student.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		94D8199323863C9E0042CDBA /* NeSingleInstance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NeSingleInstance; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D8199623863C9E0042CDBA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		94D8199D238664730042CDBA /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		94D8199E238664E20042CDBA /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		94D819A123866ADE0042CDBA /* OperatorHeavyLoad.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OperatorHeavyLoad.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				94D8199623863C9E0042CDBA /* main.cpp */,
+				94D8199D238664730042CDBA /* Student.h */,
+				94D8199E238664E20042CDBA /* Student.cpp */,
+				94D819A123866ADE0042CDBA /* OperatorHeavyLoad.hpp */,
 			);
 			path = NeSingleInstance;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D8199723863C9E0042CDBA /* main.cpp in Sources */,
+				94D8199F238664E20042CDBA /* Student.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

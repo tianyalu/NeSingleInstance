@@ -7,9 +7,33 @@
 //
 
 #include <iostream>
+#include "Student.h"
+#include "OperatorHeavyLoad.hpp"
+using namespace std;
+
+void func(int a);
+void func(float a);
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Student* student = Student::getInstance();
+    student->sayHello();
+    
+    OperatorHeavyLoad test1;
+    test1.i = 100;
+    OperatorHeavyLoad test2;
+    test2.i = 200;
+    //操作符重载
+    OperatorHeavyLoad test3 = test1+test2;
+    cout << "test3.i: " << test3.i << endl;
     return 0;
 }
+
+//函数重载
+void func(int a) {
+    
+}
+void func(float a) {
+    
+}
+
+
